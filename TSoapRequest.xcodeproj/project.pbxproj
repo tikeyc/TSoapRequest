@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD4B5CD41CB0FB470091A0E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4B5CD31CB0FB470091A0E3 /* main.m */; };
+		BD4B5CD71CB0FB470091A0E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4B5CD61CB0FB470091A0E3 /* AppDelegate.m */; };
+		BD4B5CDA1CB0FB470091A0E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4B5CD91CB0FB470091A0E3 /* ViewController.m */; };
+		BD4B5CDD1CB0FB470091A0E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD4B5CDB1CB0FB470091A0E3 /* Main.storyboard */; };
+		BD4B5CDF1CB0FB470091A0E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD4B5CDE1CB0FB470091A0E3 /* Assets.xcassets */; };
+		BD4B5CE21CB0FB470091A0E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD4B5CE01CB0FB470091A0E3 /* LaunchScreen.storyboard */; };
+		BD4B5CED1CB0FB470091A0E3 /* TSoapRequestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4B5CEC1CB0FB470091A0E3 /* TSoapRequestTests.m */; };
+		BD4B5CF81CB0FB470091A0E3 /* TSoapRequestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4B5CF71CB0FB470091A0E3 /* TSoapRequestUITests.m */; };
+		BD4B5D0C1CB0FBAE0091A0E3 /* APISoapClient.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4B5D071CB0FBAE0091A0E3 /* APISoapClient.m */; };
+		BD4B5D0D1CB0FBAE0091A0E3 /* APISoapClient.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4B5D071CB0FBAE0091A0E3 /* APISoapClient.m */; };
+		BD4B5D0E1CB0FBAE0091A0E3 /* APISoapClient.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4B5D071CB0FBAE0091A0E3 /* APISoapClient.m */; };
+		BD4B5D0F1CB0FBAE0091A0E3 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BD4B5D091CB0FBAE0091A0E3 /* README.md */; };
+		BD4B5D101CB0FBAE0091A0E3 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BD4B5D091CB0FBAE0091A0E3 /* README.md */; };
+		BD4B5D111CB0FBAE0091A0E3 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BD4B5D091CB0FBAE0091A0E3 /* README.md */; };
+		BD4B5D121CB0FBAE0091A0E3 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4B5D0B1CB0FBAE0091A0E3 /* XMLReader.m */; };
+		BD4B5D131CB0FBAE0091A0E3 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4B5D0B1CB0FBAE0091A0E3 /* XMLReader.m */; };
+		BD4B5D141CB0FBAE0091A0E3 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4B5D0B1CB0FBAE0091A0E3 /* XMLReader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD4B5CE91CB0FB470091A0E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD4B5CC71CB0FB460091A0E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD4B5CCE1CB0FB470091A0E3;
+			remoteInfo = TSoapRequest;
+		};
+		BD4B5CF41CB0FB470091A0E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD4B5CC71CB0FB460091A0E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD4B5CCE1CB0FB470091A0E3;
+			remoteInfo = TSoapRequest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD4B5CCF1CB0FB470091A0E3 /* TSoapRequest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSoapRequest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4B5CD31CB0FB470091A0E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD4B5CD51CB0FB470091A0E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD4B5CD61CB0FB470091A0E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD4B5CD81CB0FB470091A0E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD4B5CD91CB0FB470091A0E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD4B5CDC1CB0FB470091A0E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD4B5CDE1CB0FB470091A0E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD4B5CE11CB0FB470091A0E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD4B5CE31CB0FB470091A0E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD4B5CE81CB0FB470091A0E3 /* TSoapRequestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSoapRequestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4B5CEC1CB0FB470091A0E3 /* TSoapRequestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSoapRequestTests.m; sourceTree = "<group>"; };
+		BD4B5CEE1CB0FB470091A0E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD4B5CF31CB0FB470091A0E3 /* TSoapRequestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSoapRequestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4B5CF71CB0FB470091A0E3 /* TSoapRequestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSoapRequestUITests.m; sourceTree = "<group>"; };
+		BD4B5CF91CB0FB470091A0E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD4B5D061CB0FBAE0091A0E3 /* APISoapClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APISoapClient.h; sourceTree = "<group>"; };
+		BD4B5D071CB0FBAE0091A0E3 /* APISoapClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APISoapClient.m; sourceTree = "<group>"; };
+		BD4B5D091CB0FBAE0091A0E3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BD4B5D0A1CB0FBAE0091A0E3 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		BD4B5D0B1CB0FBAE0091A0E3 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD4B5CCC1CB0FB470091A0E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4B5CE51CB0FB470091A0E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4B5CF01CB0FB470091A0E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD4B5CC61CB0FB460091A0E3 = {
+			isa = PBXGroup;
+			children = (
+				BD4B5CD11CB0FB470091A0E3 /* TSoapRequest */,
+				BD4B5CEB1CB0FB470091A0E3 /* TSoapRequestTests */,
+				BD4B5CF61CB0FB470091A0E3 /* TSoapRequestUITests */,
+				BD4B5CD01CB0FB470091A0E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD4B5CD01CB0FB470091A0E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD4B5CCF1CB0FB470091A0E3 /* TSoapRequest.app */,
+				BD4B5CE81CB0FB470091A0E3 /* TSoapRequestTests.xctest */,
+				BD4B5CF31CB0FB470091A0E3 /* TSoapRequestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD4B5CD11CB0FB470091A0E3 /* TSoapRequest */ = {
+			isa = PBXGroup;
+			children = (
+				BD4B5D051CB0FB600091A0E3 /* API */,
+				BD4B5CD51CB0FB470091A0E3 /* AppDelegate.h */,
+				BD4B5CD61CB0FB470091A0E3 /* AppDelegate.m */,
+				BD4B5CD81CB0FB470091A0E3 /* ViewController.h */,
+				BD4B5CD91CB0FB470091A0E3 /* ViewController.m */,
+				BD4B5CDB1CB0FB470091A0E3 /* Main.storyboard */,
+				BD4B5CDE1CB0FB470091A0E3 /* Assets.xcassets */,
+				BD4B5CE01CB0FB470091A0E3 /* LaunchScreen.storyboard */,
+				BD4B5CE31CB0FB470091A0E3 /* Info.plist */,
+				BD4B5CD21CB0FB470091A0E3 /* Supporting Files */,
+			);
+			path = TSoapRequest;
+			sourceTree = "<group>";
+		};
+		BD4B5CD21CB0FB470091A0E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD4B5CD31CB0FB470091A0E3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD4B5CEB1CB0FB470091A0E3 /* TSoapRequestTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD4B5CEC1CB0FB470091A0E3 /* TSoapRequestTests.m */,
+				BD4B5CEE1CB0FB470091A0E3 /* Info.plist */,
+			);
+			path = TSoapRequestTests;
+			sourceTree = "<group>";
+		};
+		BD4B5CF61CB0FB470091A0E3 /* TSoapRequestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD4B5CF71CB0FB470091A0E3 /* TSoapRequestUITests.m */,
+				BD4B5CF91CB0FB470091A0E3 /* Info.plist */,
+			);
+			path = TSoapRequestUITests;
+			sourceTree = "<group>";
+		};
+		BD4B5D051CB0FB600091A0E3 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				BD4B5D081CB0FBAE0091A0E3 /* XMLReader-master */,
+				BD4B5D061CB0FBAE0091A0E3 /* APISoapClient.h */,
+				BD4B5D071CB0FBAE0091A0E3 /* APISoapClient.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		BD4B5D081CB0FBAE0091A0E3 /* XMLReader-master */ = {
+			isa = PBXGroup;
+			children = (
+				BD4B5D091CB0FBAE0091A0E3 /* README.md */,
+				BD4B5D0A1CB0FBAE0091A0E3 /* XMLReader.h */,
+				BD4B5D0B1CB0FBAE0091A0E3 /* XMLReader.m */,
+			);
+			path = "XMLReader-master";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD4B5CCE1CB0FB470091A0E3 /* TSoapRequest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD4B5CFC1CB0FB470091A0E3 /* Build configuration list for PBXNativeTarget "TSoapRequest" */;
+			buildPhases = (
+				BD4B5CCB1CB0FB470091A0E3 /* Sources */,
+				BD4B5CCC1CB0FB470091A0E3 /* Frameworks */,
+				BD4B5CCD1CB0FB470091A0E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSoapRequest;
+			productName = TSoapRequest;
+			productReference = BD4B5CCF1CB0FB470091A0E3 /* TSoapRequest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD4B5CE71CB0FB470091A0E3 /* TSoapRequestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD4B5CFF1CB0FB470091A0E3 /* Build configuration list for PBXNativeTarget "TSoapRequestTests" */;
+			buildPhases = (
+				BD4B5CE41CB0FB470091A0E3 /* Sources */,
+				BD4B5CE51CB0FB470091A0E3 /* Frameworks */,
+				BD4B5CE61CB0FB470091A0E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD4B5CEA1CB0FB470091A0E3 /* PBXTargetDependency */,
+			);
+			name = TSoapRequestTests;
+			productName = TSoapRequestTests;
+			productReference = BD4B5CE81CB0FB470091A0E3 /* TSoapRequestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD4B5CF21CB0FB470091A0E3 /* TSoapRequestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD4B5D021CB0FB470091A0E3 /* Build configuration list for PBXNativeTarget "TSoapRequestUITests" */;
+			buildPhases = (
+				BD4B5CEF1CB0FB470091A0E3 /* Sources */,
+				BD4B5CF01CB0FB470091A0E3 /* Frameworks */,
+				BD4B5CF11CB0FB470091A0E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD4B5CF51CB0FB470091A0E3 /* PBXTargetDependency */,
+			);
+			name = TSoapRequestUITests;
+			productName = TSoapRequestUITests;
+			productReference = BD4B5CF31CB0FB470091A0E3 /* TSoapRequestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD4B5CC71CB0FB460091A0E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = tikeyc;
+				TargetAttributes = {
+					BD4B5CCE1CB0FB470091A0E3 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					BD4B5CE71CB0FB470091A0E3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BD4B5CCE1CB0FB470091A0E3;
+					};
+					BD4B5CF21CB0FB470091A0E3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BD4B5CCE1CB0FB470091A0E3;
+					};
+				};
+			};
+			buildConfigurationList = BD4B5CCA1CB0FB460091A0E3 /* Build configuration list for PBXProject "TSoapRequest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD4B5CC61CB0FB460091A0E3;
+			productRefGroup = BD4B5CD01CB0FB470091A0E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD4B5CCE1CB0FB470091A0E3 /* TSoapRequest */,
+				BD4B5CE71CB0FB470091A0E3 /* TSoapRequestTests */,
+				BD4B5CF21CB0FB470091A0E3 /* TSoapRequestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD4B5CCD1CB0FB470091A0E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4B5CE21CB0FB470091A0E3 /* LaunchScreen.storyboard in Resources */,
+				BD4B5CDF1CB0FB470091A0E3 /* Assets.xcassets in Resources */,
+				BD4B5CDD1CB0FB470091A0E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4B5CE61CB0FB470091A0E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4B5CF11CB0FB470091A0E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD4B5CCB1CB0FB470091A0E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4B5CDA1CB0FB470091A0E3 /* ViewController.m in Sources */,
+				BD4B5CD71CB0FB470091A0E3 /* AppDelegate.m in Sources */,
+				BD4B5D0F1CB0FBAE0091A0E3 /* README.md in Sources */,
+				BD4B5D0C1CB0FBAE0091A0E3 /* APISoapClient.m in Sources */,
+				BD4B5D121CB0FBAE0091A0E3 /* XMLReader.m in Sources */,
+				BD4B5CD41CB0FB470091A0E3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4B5CE41CB0FB470091A0E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4B5D101CB0FBAE0091A0E3 /* README.md in Sources */,
+				BD4B5D0D1CB0FBAE0091A0E3 /* APISoapClient.m in Sources */,
+				BD4B5D131CB0FBAE0091A0E3 /* XMLReader.m in Sources */,
+				BD4B5CED1CB0FB470091A0E3 /* TSoapRequestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4B5CEF1CB0FB470091A0E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4B5D111CB0FBAE0091A0E3 /* README.md in Sources */,
+				BD4B5D0E1CB0FBAE0091A0E3 /* APISoapClient.m in Sources */,
+				BD4B5D141CB0FBAE0091A0E3 /* XMLReader.m in Sources */,
+				BD4B5CF81CB0FB470091A0E3 /* TSoapRequestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD4B5CEA1CB0FB470091A0E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD4B5CCE1CB0FB470091A0E3 /* TSoapRequest */;
+			targetProxy = BD4B5CE91CB0FB470091A0E3 /* PBXContainerItemProxy */;
+		};
+		BD4B5CF51CB0FB470091A0E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD4B5CCE1CB0FB470091A0E3 /* TSoapRequest */;
+			targetProxy = BD4B5CF41CB0FB470091A0E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD4B5CDB1CB0FB470091A0E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD4B5CDC1CB0FB470091A0E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD4B5CE01CB0FB470091A0E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD4B5CE11CB0FB470091A0E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD4B5CFA1CB0FB470091A0E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD4B5CFB1CB0FB470091A0E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD4B5CFD1CB0FB470091A0E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TSoapRequest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vizz.TSoapRequest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD4B5CFE1CB0FB470091A0E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TSoapRequest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vizz.TSoapRequest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD4B5D001CB0FB470091A0E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TSoapRequestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vizz.TSoapRequestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSoapRequest.app/TSoapRequest";
+			};
+			name = Debug;
+		};
+		BD4B5D011CB0FB470091A0E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TSoapRequestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vizz.TSoapRequestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSoapRequest.app/TSoapRequest";
+			};
+			name = Release;
+		};
+		BD4B5D031CB0FB470091A0E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TSoapRequestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vizz.TSoapRequestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TSoapRequest;
+			};
+			name = Debug;
+		};
+		BD4B5D041CB0FB470091A0E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TSoapRequestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vizz.TSoapRequestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TSoapRequest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD4B5CCA1CB0FB460091A0E3 /* Build configuration list for PBXProject "TSoapRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4B5CFA1CB0FB470091A0E3 /* Debug */,
+				BD4B5CFB1CB0FB470091A0E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD4B5CFC1CB0FB470091A0E3 /* Build configuration list for PBXNativeTarget "TSoapRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4B5CFD1CB0FB470091A0E3 /* Debug */,
+				BD4B5CFE1CB0FB470091A0E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD4B5CFF1CB0FB470091A0E3 /* Build configuration list for PBXNativeTarget "TSoapRequestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4B5D001CB0FB470091A0E3 /* Debug */,
+				BD4B5D011CB0FB470091A0E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD4B5D021CB0FB470091A0E3 /* Build configuration list for PBXNativeTarget "TSoapRequestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4B5D031CB0FB470091A0E3 /* Debug */,
+				BD4B5D041CB0FB470091A0E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD4B5CC71CB0FB460091A0E3 /* Project object */;
+}
