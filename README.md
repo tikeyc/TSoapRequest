@@ -22,6 +22,9 @@
     
     -(void)appendSoapHtmlMiddle:(NSMutableString **)soapHtmlMiddle WithParams:(NSMutableDictionary *)params              
 {          
+
+
+
     for (NSString *key in params.allKeys) {    
     
         [*soapHtmlMiddle appendString:[NSString stringWithFormat:@"<%@>",key]];        
