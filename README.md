@@ -22,12 +22,9 @@
     
     -(void)appendSoapHtmlMiddle:(NSMutableString **)soapHtmlMiddle WithParams:(NSMutableDictionary *)params              
 {          
-    for (NSString *key in params.allKeys) {
-        
-        [*soapHtmlMiddle appendString:[NSString stringWithFormat:@"<%@>",key]];
-        
-        id value = params[key];
-        
+    for (NSString *key in params.allKeys) {          
+        [*soapHtmlMiddle appendString:[NSString stringWithFormat:@"<%@>",key]];        
+        id value = params[key];        
         if ([value isKindOfClass:[NSDictionary class]]) {
             [self appendSoapHtmlMiddle:&*soapHtmlMiddle WithParams:value];
         }else if ([value isKindOfClass:[NSArray class]]){
